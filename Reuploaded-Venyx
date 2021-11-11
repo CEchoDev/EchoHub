@@ -289,19 +289,6 @@ do
 						TextSize = 14,
 						TextXAlignment = Enum.TextXAlignment.Left
 					})
-					utility:Create("ImageLabel", { -- title
-						Name = "ImageLabel",
-						AnchorPoint = Vector2.new(0, 0.5),
-						BackgroundTransparency = 1,
-						Position = UDim2.new(0, 82, 0, 19),
-						Size = UDim2.new(1, -46, 0, 16),
-						ZIndex = 3,
-						Image = "rbxassetid://",
-						ImageColor3 = themes.TextColor,
-						ScaleType = Enum.ScaleType.Fit
-						TextXAlignment = Enum.TextXAlignment.Left
-						ImageTransparency = 0.64
-					})
 				})
 			})
 		})
