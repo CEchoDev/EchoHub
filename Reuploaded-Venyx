@@ -375,7 +375,7 @@ do
 			Name = title,
 			Parent = page.container,
 			BackgroundTransparency = 1,
-			Size = UDim2.new(1, -10, 0, 28),
+			Size = UDim2.new(1, -20, 0, 28),
 			ZIndex = 2,
 			Image = "rbxassetid://5028857472",
 			ImageColor3 = themes.LightContrast,
@@ -660,7 +660,7 @@ do
 		end)
 	end
 
-    function section:addLabel(title, callback)
+    function section:addLabel(title)
 		local button = utility:Create("ImageButton", {
 			Name = "Label",
 			Parent = self.container,
