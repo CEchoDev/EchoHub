@@ -212,7 +212,7 @@ do
 	
 	-- new classes
 	
-	function library.new(title, imagei)
+	function library.new(title)
 		local container = utility:Create("ScreenGui", {
 			Name = title,
 			Parent = game.CoreGui
@@ -296,7 +296,7 @@ do
 						Position = UDim2.new(0, 12, 0.5, 0),
 						Size = UDim2.new(0, 16, 0, 16),
 						ZIndex = 3,
-						Image = "rbxassetid://" .. tostring(imagei),
+						Image = "rbxassetid://5013109572",
 						ImageColor3 = themes.TextColor,
 						ImageTransparency = 0.64
 					})
