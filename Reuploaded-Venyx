@@ -661,7 +661,7 @@ do
 	end
 
     function section:addLabel(title)
-		local button = utility:Create("ImageLabel", {
+		local button = utility:Create("ImageButton", {
 			Name = "Label",
 			Parent = self.container,
 			BackgroundTransparency = 1,
